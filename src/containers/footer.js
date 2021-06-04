@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import { Footer } from '../components';
 
@@ -37,7 +38,11 @@ export function FooterContainer() {
         </Footer.Column>
       </Footer.Row>
       <Footer.Break />
-      <Footer.Text><a target="_blank" href="https://www.netflix.com/lk/">Netflix Sri Lanka</a></Footer.Text>
+      <Footer.Text>
+        <a target="_blank" href="https://www.netflix.com/lk/">
+          Netflix Sri Lanka
+        </a>
+      </Footer.Text>
     </Footer>
   );
 }
